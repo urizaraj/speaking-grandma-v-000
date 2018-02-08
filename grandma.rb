@@ -16,4 +16,6 @@ def speak_to_grandma(phrase)
   shouting = phrase.all? do |letter|
     letter == letter.upcase
   end
+
+  puts shouting
 end
