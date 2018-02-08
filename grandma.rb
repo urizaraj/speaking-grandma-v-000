@@ -19,3 +19,5 @@ def speak_to_grandma(phrase)
 
   puts shouting
 end
+
+speak_to_grandma('hello')
