@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  phrase.all? do |letter|
+  shouting = phrase.all? do |letter|
     letter == letter.upcase
   end
 end
